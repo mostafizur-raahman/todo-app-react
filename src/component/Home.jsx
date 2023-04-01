@@ -12,7 +12,7 @@ const Home = () => {
     }
     return (
         <div>
-            <NewTodo onTodo={handleNewTodo} ></NewTodo>
+            <NewTodo handleNewTodo={handleNewTodo} ></NewTodo>
             <Todos todos={todos} ></Todos>
         </div>
     );

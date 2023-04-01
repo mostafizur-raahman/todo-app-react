@@ -7,7 +7,7 @@ const NewTodo = (props) => {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        props.onTodo(todo);
+        props.handleNewTodo(todo);
     }
     return (
         <div className='text-center mt-4'>
